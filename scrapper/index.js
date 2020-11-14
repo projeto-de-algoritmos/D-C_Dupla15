@@ -35,7 +35,7 @@ const puppeteer = require("puppeteer");
       }
     });
     
-    var moviesRating = document.querySelectorAll("span.ipl-rating-star__rating");
+    var moviesRating = document.querySelectorAll("div.ipl-rating-star.small span.ipl-rating-star__rating");
     var rating = Array.from(moviesRating).map(rate => {
       return rate.outerText;
     });
