@@ -1,45 +1,55 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# PAflix
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 4<br>
+**Conteúdo da Disciplina**: D&C<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 15/0120630  |  Caio Oliveira de Moraes |
+| 16/0015294  |  Matheus Rodrigues do Nascimento |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
-
+A ideia do projeto é que a partir de uma lista randomica de filmes o usuário consiga ver a notas do filmes do pior para o melhor avaliado, e assim consiga escolher mais facilmente o que assitir.
+O projeto possui duas partes, o webscrapper que busca dados de uma lista de filmes do site [Imdb](https://imdb.com). E a outra parte consiste no frontend, onde os dados são ordenados utilizando o merge sort e sendo exebido para o usuário. 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![screenshot1](https://media.discordapp.net/attachments/483408721473699850/776999347744276490/Captura_de_Tela_2020-11-13_as_23.32.31.png?width=667&height=337)
+![screenshot2](https://media.giphy.com/media/OIAFNecCQWgFvYj6Qm/giphy.gif)
+![screenshot3](https://media.giphy.com/media/hgA41WJGP9FY8475zr/giphy.gif)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Javascript<br>
+**Framework**: React<br>
+
+### Para rodar o scrapper
+
+Faça o download das dependências
+
+`yarn install`
+
+Executa o scrapper
+
+`node index.js` 
+
+A execução demora alguns segundos então não se preocupe com a demora.
+
+### Para rodar o frontend
+Faça o download das dependências
+
+`yarn install`
+
+Execute o frontend
+
+`yarn start`
+
+
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Clique em gerar filmes para gerar uma nova lista de filmes, e utilize o mouse para ver as informções dos filmes
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
+O vídeo de apresentação se encontra na pasta assets da raiz do projeto.
 
 
 
